@@ -1,4 +1,4 @@
-name: Hello project workflow
+name: Hello project2 workflow
 
 
 
@@ -44,8 +44,8 @@ jobs:
 
     steps:
 
-      - name: goodbye world
+      - name: goodbye world2
 
-        run: echo "Goodbye world"
+        run: echo "Goodbye world2"
 
         shell: bash
