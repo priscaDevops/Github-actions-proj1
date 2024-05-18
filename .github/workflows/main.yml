@@ -1,4 +1,4 @@
-name: Hello project workflow
+name: Hi project workflow
 
 
 
@@ -30,9 +30,9 @@ jobs:
 
       - uses: actions/checkout@v2
 
-      - name: hello world
+      - name: Hi world
 
-        run: echo "Hello world"
+        run: echo "Hi world"
 
         shell: bash
 
@@ -44,8 +44,8 @@ jobs:
 
     steps:
 
-      - name: goodbye world
+      - name: see you world
 
-        run: echo "Goodbye world"
+        run: echo "See you world"
 
         shell: bash
